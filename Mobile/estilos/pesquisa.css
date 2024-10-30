@@ -1,0 +1,304 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+* {
+    padding: 0%;
+    margin: 0%;
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+
+@media screen and (max-width: 450px){
+
+    header {
+        display: block;
+        height: 110px;
+        background-color: #26acbb;
+        background-size: 100% !important;
+        box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.322);
+    }
+    
+    .menu-mobile {
+        background-color: #1a909b;
+        background-size: 100% !important;
+        text-align: center;
+    } 
+    
+    nav {
+        background-color: #093336f6;
+        position: relative;
+    }
+    
+    nav > a {
+        color: white;
+        text-decoration: none;
+        font-size: 20px;
+        text-align: center;
+        padding: 15px;
+        display: block;
+    }
+    
+    nav {
+        display: none;
+    }
+
+    #ingles, #pt {
+        margin: 0px;
+        padding: 0px;
+        width: 20px;
+        height: 20px;
+    }
+    
+    .idioma {
+        display: inline-block;
+    }
+    
+    #indexlink {
+        text-decoration: none;
+        color: white;
+    }
+    
+    h1 {
+        font-size: 23px;
+        color: white;
+        text-align: center;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    
+    span {
+        padding-left: 15px;
+    }
+    
+    div > #menu {
+        font-size: 35px;
+        color: white;
+    }
+
+
+h2 {
+    font-size: 20px;
+    padding-top: 20px;
+    padding-left: 15px;
+}
+
+h3 {
+    padding-top: 20px;
+    text-align: center;
+}
+
+img {
+    display: block;
+    margin: auto;
+    padding: 20px;
+    width: 300px;
+    height: 100px;
+}
+
+#img1 {
+    height: 80px;
+}
+
+#img2 {
+    height: 130px;
+}
+
+p {
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 20px;
+    text-align: justify;
+    font-size: 17px;
+}
+
+#cnpq {
+    height: 100px;
+    width: 140px;
+}
+#capes {
+    height: 90px;
+    width: 90px;
+}
+#fapemig {
+    height: 90px;
+    width: 100px;
+}
+
+#cnpq, #capes, #fapemig {
+    padding: 20px;
+}
+
+footer {
+    background-color: #26acbb;
+    padding: 10px;
+    overflow: auto;
+    color: white;
+}
+
+address {
+    font-style: normal;
+    padding: 10px;
+}
+
+.fa-github {
+    color: white;
+    font-size: 20px;
+    padding: 3px;
+}
+}
+
+@media screen and (min-width: 900px) and (max-width: 1800px){
+
+    header {
+        display: flex;
+        width: 100%;
+        height: 100px;
+        background-color: #26acbb;
+        background-size: 100% !important;
+        box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.322);
+    }
+
+    #indexlink {
+        text-decoration: none;
+        color: white;
+    }
+
+    nav {
+        padding-top: 37px;
+    }
+
+    nav > a {
+        font-size: 18px;
+        padding-right: 20px;
+        padding-left: 20px;
+        color: white;
+        text-decoration: none;
+    }
+
+    nav > .paginas:hover {
+        background-color: rgba(71, 71, 71, 0.74);
+        height: 20px;
+        border-radius: 5px;
+    }
+    
+    nav > a > img {
+        display: inline-flex;
+        margin: 0px;
+        width: 20px;
+        height: 20px;
+    }
+
+    .idioma {
+        padding: 0%;
+    }
+     
+    h1 {
+       padding-top: 20px;
+       padding-left: 60px;
+       font-size: 25px;
+       color: white;
+       float: left;
+       width: 20%;
+    }
+   
+    #menu {
+        display: none;
+    }
+
+    article {
+       width: 85%;
+       display: block;
+       margin: auto;
+       padding-top: 30px;
+       text-align: justify;
+    }
+
+    h2 {
+        padding-top: 30px;
+        padding-left: 15px;
+        font-weight: bold;
+        text-align: left;
+        font-size: 25px;
+        color: #093336;
+    }
+
+    h3 {
+        padding-top: 15px;
+        padding-left: 15px;
+        font-weight: bold;
+        text-align: center;
+        font-size: 25px;
+    }
+
+    p {
+        padding-bottom: 20px;
+        font-size: 17px;
+    }
+    
+
+    #img1, #img4, #img7 {
+        display: block;
+        margin: auto;
+        padding: 30px;
+    }
+    
+    #img2, #img3, #img5, #img6 {
+        padding: 20px;
+    }
+
+    section > #cnpq {
+        height: 100px;
+        width: 140px;
+    }
+    section > #capes {
+        height: 90px;
+        width: 90px;
+    }
+    section > #fapemig {
+        height: 90px;
+        width: 100px;
+    }
+
+    #cnpq, #capes, #fapemig {
+       padding: 20px;   
+       display: inline-flex;
+    }
+
+    section.fomentos {
+       padding-left: 30%;
+    }
+    
+    .rodape {  
+        background-color: #26acbb;
+        background-size: 100% !important;
+        overflow: auto;
+        width: 100%;
+    }
+    
+    address {
+        font-style: normal;
+        color: white;
+        padding: 30px;
+    }
+    
+    #endereço {
+        float: left;
+        width: 60%;
+    }
+    
+    #creditos {
+        float: right;
+        width: 30%;
+    }
+    
+    .fa {
+        color: white;
+        font-size: 20px;
+    }
+    
+    span {
+        padding-left: 30px;
+    }
+}
